@@ -7,10 +7,10 @@ Current Weather Display
 Stay informed with Weather App's current weather display, showcasing vital information such as temperature, humidity, wind speed, and weather condition. Users can quickly assess the current weather conditions at their desired location.
 
 ### Location Search
-Weather App allows users to search for weather information in any location globally. By entering the desired location, users can retrieve accurate weather data, making it effortless to check weather conditions for travel destinations or distant areas. ![Search image](/workspace/weather-app/assets/images/search.png)
+Weather App allows users to search for weather information in any location globally. By entering the desired location, users can retrieve accurate weather data, making it effortless to check weather conditions for travel destinations or distant areas. ![Search image](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/search.png?raw=true)
 
 ### Forecast
-Plan ahead with Weather App's forecast feature, providing users with insights into future weather conditions. The forecast section offers predictions for upcoming days, empowering users to make informed decisions based on weather trends. ![Forecast image](/workspace/weather-app/assets/images/forecast.png)
+Plan ahead with Weather App's forecast feature, providing users with insights into future weather conditions. The forecast section offers predictions for upcoming days, empowering users to make informed decisions based on weather trends. ![Forecast image](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/forecast.png?raw=true)
 
 ### Responsive Design
 Weather App features a responsive design, ensuring seamless user experience across various devices and screen sizes. Whether accessed on a desktop, tablet, or smartphone, users can enjoy consistent and visually appealing weather updates.
@@ -31,7 +31,7 @@ No major bugs have been identified during testing. Minor issues encountered were
 ## Fixed bugs
 ### API Fetch Function Not Working
 During development, a bug was encountered where the API fetch function was not functioning as expected. Upon investigation, it was discovered that the fetch call in the JavaScript file containing the API key was not enclosed within backticks (`) to form a template literal. 
-![solution](/workspace/weather-app/assets/images/solution.png)
+![solution](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/solution.png?raw=true)
 ### Solution
 To resolve the issue, the fetch call was modified to utilize template literals, allowing for dynamic insertion of the city and APIKey variables into the URL string. This ensured that the API request was correctly formatted with the appropriate values for the city name and API key. With this fix in place, the API fetch function now operates as intended, successfully retrieving weather data from the OpenWeather API.
 
