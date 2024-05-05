@@ -8,20 +8,26 @@ Stay informed with Weather App's current weather display, showcasing vital infor
 
 ### Location Search
 Weather App allows users to search for weather information in any location globally. By entering the desired location, users can retrieve accurate weather data, making it effortless to check weather conditions for travel destinations or distant areas.
+
 ![Search image](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/search.png?raw=true)
 
 ### Forecast
 The forecast shows temperature and what weather condition it is, at the bottom it displays humidity and Wind Speed.
 ![Forecast image](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/forecast.png?raw=true)
 
+### 404 error
+If the user types in an invalid location the code will execute an image with text
+![image of 404]()
+
 ### Responsive Design
 Weather App features a responsive design, ensuring seamless user experience across various devices and screen sizes. Whether accessed on a desktop, tablet, or smartphone, users can enjoy consistent and visually appealing weather updates.
 
 ## Testing
 - Validator Testing
-  - HTML: Passed W3C validator without errors.
+  - HTML: Passed W3C validator with only one error.
+  explanation for the error - The validator complains about the image source on line 36 on the html file being empty the reason for that is js file fills in the image needed for the weather condition based on the location you typed in.
   - CSS: No errors found when passing through the official Jigsaw validator.
-  - JavaScript: Passed Jshint validator without errors.
+  - JavaScript: Passed esprima validator without errors.
   
 
 ### Browser Compatibility
@@ -55,7 +61,7 @@ Additional information and resources were referenced from the OpenWeathermap doc
 
 [cssgradient](https://cssgradient.io) was used to get the color schemes for this site
 
-![Colorscheme]()                  
+![Colorscheme](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/color.png?raw=true)                  
 Code is down below for the color
 > background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);

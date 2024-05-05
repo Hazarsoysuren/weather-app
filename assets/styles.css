@@ -11,10 +11,10 @@ body, html {
 }
 
 .type-in input {
-    width: 200px; /* Set the width of the input field */
-    padding: 10px; /* Add some padding to the input field */
-    margin: 0 auto; /* Center the input field */
-    display: block; /* Make the input field a block-level element */
+    width: 200px; 
+    padding: 10px; 
+    margin: 0 auto; 
+    display: block; 
 }
 
 h1{
@@ -171,7 +171,6 @@ body{
     width: 100%;
     text-align: center;
     margin-top: 50px;
-    scale: 0;
     opacity: 0;
     display: none;
 }
@@ -181,14 +180,13 @@ body{
 }
 
 .not-found p{
-    color: #06283D;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
 }
 
 .weather-overlay, .weather-details{
-    scale: 0;
     opacity: 0;
 }
 
@@ -199,7 +197,6 @@ body{
 
 @keyframes fadeIn{
     to {
-        scale: 1;
         opacity: 1;
     }
 }
