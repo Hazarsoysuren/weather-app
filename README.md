@@ -17,7 +17,7 @@ The forecast shows temperature and what weather condition it is, at the bottom i
 
 ### 404 error
 If the user types in an invalid location the code will execute an image with text
-![image of 404]()
+![image of 404](https://github.com/Hazarsoysuren/weather-app/blob/main/assets/images/readme-404.png?raw=true)
 
 ### Responsive Design
 Weather App features a responsive design, ensuring seamless user experience across various devices and screen sizes. Whether accessed on a desktop, tablet, or smartphone, users can enjoy consistent and visually appealing weather updates.
