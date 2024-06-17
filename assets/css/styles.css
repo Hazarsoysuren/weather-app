@@ -31,12 +31,10 @@ h1{
     border-radius: 10px; /* Add rounded corners */
 }
 body{
- 
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-
 }
 
-
+/* Search Box start */
 .search-box{
     width: 100%;
     height: min-content;
@@ -90,7 +88,11 @@ body{
 #search-button{
     padding-left: 20px;
 }
+/* Search Box End */
 
+/* ---------------------- */
+
+/* Weather display start */
 .weather-overlay{
     text-align: center;
     background-color: #fff;
@@ -165,7 +167,11 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
+/* Weather display end */
 
+
+
+/* Not found (404) start */
 .not-found{
     width: 100%;
     text-align: center;
@@ -184,6 +190,9 @@ body{
     margin-top: 12px;
     padding-bottom: 20px;
 }
+/* Not found (404) end */
+
+/* ---------------------- */
 
 .weather-overlay, .weather-details{
     opacity: 0;
