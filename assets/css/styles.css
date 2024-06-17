@@ -162,7 +162,6 @@ body{
 }
 
 .weather-details p{
-    color: #06283D;
     font-size: 14px;
     font-weight: 500;
 }
@@ -171,7 +170,6 @@ body{
     width: 100%;
     text-align: center;
     margin-top: 50px;
-    opacity: 0;
     display: none;
 }
 
@@ -184,6 +182,7 @@ body{
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
+    padding-bottom: 20px;
 }
 
 .weather-overlay, .weather-details{
